@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>PiyoTemplate</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+	
+	<!-- Header(Start) -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo.png">PiyoTemplate
+				</a>
+			</div>
+		</nav>
+	</header>
+	<!-- Header(End) -->
+
+	<!-- Main(Start) -->
+	<main>
+
+		<div class="container pt-3">
+			<h1>タイポグラフィ</h1>
+		</div>
+
+		<!-- リスト3-1 見出し<h1>～<h6> -->
+		<div class="container">
+			<h1>第1見出し</h1>
+			<h2>第2見出し</h2>
+			<h3>第3見出し</h3>
+			<h4>第4見出し</h4>
+			<h5>第5見出し</h5>
+			<h6>第6見出し</h6>
+		</div>
+
+		<!-- リスト3-3　h1クラス～h6クラス -->
+		<div class="container">
+			<p class="h1">h1クラス</p>
+			<p class="h2">h2クラス</p>
+			<p class="h3">h3クラス</p>
+			<p class="h4">h4クラス</p>
+			<p class="h5">h5クラス</p>
+			<p class="h6">h6クラス</p>
+		</div>
+
+		<!-- リスト3-4　text-mutedクラスで副見出しを作成 -->
+		<div class="container">
+			<h3>
+				主見出し<small class="text-muted">副見出し (small.text-muted)</small>
+			</h3>
+		</div>
+
+		<!-- リスト3-5　display-{サイズ}クラスで見出しを目立たせる -->
+		<div class="container">
+			<h1 class="display-1">h1.display-1</h1>
+			<h1 class="display-2">h1.display-2</h1>
+			<h1 class="display-3">h1.display-3</h1>
+			<h1 class="display-4">h1.display-4</h1>
+			<h1 class="display-5">h1.display-5</h1>
+			<h1 class="display-6">h1.display-6</h1>
+			<h1>h1 (標準)</h1>
+		</div>
+
+		<!-- リスト3-7　leadクラスでリード文を作成 -->
+		<div class="container">
+			<p class="lead">目立たせたい段落 (p.lead)</p>
+			<p>標準的な段落 (p)</p>
+		</div>
+
+		<!-- リスト3-9　small要素およびsmallクラス -->
+		<div class="container">
+			<p><small>「small要素」</small>を使って、テキストを細目・注釈を表すテキストとして小さなサイズで表示させることができます。</p>
+			<p><span class="small">「smallクラス」</span>を使用してsmall要素とスタイルを一致させることもできます。</p>
+		</div>
+
+		<!-- リスト3-11　strong要素とb要素 -->
+		<div class="container">
+			<p>strong要素を使って、テキストを<strong>重要なテキスト</strong>として太字で表示させることができます。</p>
+			<p>b要素を使って、テキストを<b>強調表示するテキスト</b>として太字で表示させることができます。</p>
+		</div>
+
+		<!-- リスト3-13　mark要素およびmarkクラス -->
+		<div class="container">
+			<p>mark要素を使って、テキストを<mark>ハイライト表示</mark>させることができます。</p>
+			<p>定義済みクラス「mark」を使用して<span class="mark">mark要素とスタイルを一致</span>させることもできます。</p>
+		</div>
+
+		<!-- リスト3-15　del要素 -->
+		<div class="container">
+			<p>del要素を使って、テキストを<del>削除されたテキスト</del>として取り消し線を表示させることができます。</p>
+		</div>
+
+		<!-- リスト3-16　s要素 -->
+		<div class="container">
+			<p>s要素を使って、テキストを<s>無効なテキスト</s>として取り消し線を表示させることができます。</p>
+		</div>
+
+		<!-- リスト3-17　ins要素 -->
+		<div class="container">
+			<p>ins要素のデフォルトスタイルを使って、<ins>後から挿入されたテキスト</ins>として下線を表示することができます。</p>
+		</div>
+
+		<!-- リスト3-18　u要素 -->
+		<div class="container">
+			<p>u要素のデフォルトスタイルを使って、テキストを<u>ラベル付けされたテキスト</u>として下線を表示させることができます。</p>
+		</div>
+
+		<!-- リスト3-19　em要素 -->
+		<div class="container">
+			<p>em要素のデフォルトスタイルを使って、テキストを<em>強調したいテキスト(Emphasis text)</em>としてイタリック体または斜体で表示させることができます。(ブラウザによては123やabcなどの英数字のみ適応)</p>
+		</div>
+
+		<!-- リスト3-23　blockquote要素とblockquoteクラス -->
+		<div class="container">
+			<p>引用文の例を見てみる</p>
+			<blockquote class="blockquote">
+				<p class="mb-0">基本の引用文です。</p>
+			</blockquote>
+		</div>
+
+		<!-- リスト3-28　引用の位置合わせを中央揃えにする -->
+		<div class="container">
+			<figure class="text-center">
+				<blockquote class="blockquote">
+					<p class="mb-0">基本の引用です。</p>
+				</blockquote>
+				<figcaption class="blockquote-fotter">
+					文章の<cite title="引用元の名前">引用元</cite>が明示できます。
+				</figcaption>
+			</figure>
+		</div>
+
+		<!-- リスト3-29　引用の位置合わせを右揃えにする　-->
+		<div class="container">
+			<figure class="text-end">
+				<blockquote class="blockquote">
+					<p class="mb-0">基本の引用文です。</p>
+				</blockquote>
+				<figcaption class="blockquote-fotter">
+					文章の<cite title="引用元の名前">引用元</cite>が明示できます。
+				</figcaption>
+			</figure>
+		</div>
+
+		<!-- リスト3-30　list-unstyledクラス -->
+		<div class="container">
+			<ul class="list-unstyled">
+				<li>リストマーカーのないリスト項目</li>
+				<li>リストマーカーのないリスト項目
+					<ul>
+						<li>ネストされたリスト項目</li>
+						<li>ネストされたリスト項目</li>
+						<li>ネストされたリスト項目</li>
+					</ul>
+				</li>
+				<li>リストマーカーのないリスト項目</li>
+				<li>リストマーカーのないリスト項目</li>
+			</ul>
+		</div>
+
+		<!-- リスト3-32　インラインリスト -->
+		<div class="container">
+			<ul class="list-inline-item">インラインリスト項目</ul>
+			<ul class="list-inline-item">インラインリスト項目</ul>
+			<ul class="list-inline-item">インラインリスト項目</ul>
+		</div>
+
+		<!-- リスト3-34　定義リスト -->
+		<div class="container">
+			<dl class="row">
+				<dt class="col-sm-3">用語1</dt>
+				<dd class="col-sm-9">用語1の説明。</dd>
+				<dt class="col-sm-3 text-truncate">用語2の長いテキストは切り捨てて省略</dt>
+				<dd class="col-sm-9">用語2の説明</dd>
+				<dt class="col-sm-3">用語3</dt>
+				<dd class="col-sm-9">
+					<dl class="row">
+						<dt class="col-sm-4">ネストされた用語4</dt>
+						<dd class="col-sm-8">ネストされた用語4の説明</dd>
+					</dl>
+				</dd>
+			</dl>
+		</div>
+
+	</main>
+	<!-- Main(End) -->
+
+	<!-- Footer(Start) -->
+	<footer>
+		<div class="container text-muted py-5">
+			<p class="float-end mb-1"><a href="#">Back to top</a></p>
+			<p class="mb-1">&copy; Bootstrap</p>
+			<p class="mb-0">
+				<a href="https://getbootstrap.jp" target="_blank">Bootstap公式サイト</a>や
+				<a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+				<a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+			</p>
+		</div>
+	</footer>
+	<!-- Footer(End) -->
+
+	<!-- JavaScript -->
+	<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+	<script src="./libs/bootstrap/popper.min.js"></script>
+	<script src="./libs/bootstrap/bootstrap.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
