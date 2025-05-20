@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>PiyoTemplate</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+	
+	<!-- Header(Start) -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo.png">PiyoTemplate
+				</a>
+			</div>
+		</nav>
+	</header>
+	<!-- Header(End) -->
+
+	<!-- Main(Start) -->
+	<main>
+
+		<div class="container pt-3">
+			<h1>テーブル</h1>
+		</div>
+
+		<!-- リスト3-55 テーブルの基本スタイル() -->
+		 <div class="container">
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">見出しセル</th>
+					<th scope="col">見出しセル</th>
+					<th scope="col">見出しセル</th>
+					<th scope="col">見出しセル</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">見出しセル</th>
+					<td>データセル</td>
+					<td>データセル</td>
+					<td>データセル</td>
+				</tr>
+				<tr>
+					<th scope="row">見出しセル</th>
+					<td>データセル</td>
+					<td>データセル</td>
+					<td>データセル</td>
+				</tr>
+				<tr>
+					<th scope="row">見出しセル</th>
+					<td>データセル</td>
+					<td>データセル</td>
+					<td>データセル</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+		<!-- リスト3-58 暗色テーブル(table-dark) -->
+		<div class="container">
+			<table class="table table-dark">
+				<thead>
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- リスト3-60 table-darkクラスとtable-lightクラス -->
+		 <!--「table-dark」-->
+		<div class="container">
+			<table class="table">
+				<thead class="table-dark">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!--「table-light」-->
+			<table class="table">
+				<thead class="table-light">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- リスト3-62 table-stripedクラスを使用した縞模様のテーブル -->
+		<div class="container">
+			<table class="table table-dark table-striped">
+				<thead>
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!--「table-light」-->
+			<table class="table table-striped">
+				<thead class="table-light">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- リスト3-64 table-boderクラスを利用した罫線付きテーブル -->
+		<div class="container">
+			<table class="table-borderd">
+				<thead class="table-dark">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!--「table-light」-->
+			<table class="table-borderd">
+				<thead class="table-light">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- リスト3-66 table-borderdlessクラスを利用した罫線なしテーブル -->
+		<div class="container">
+			<table class="table table-borderless">
+				<thead class="table-dark">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!--「table-light」-->
+			<table class="table table-borderless">
+				<thead class="table-light">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- リスト3-68 table-hoverクラスを使用したマウスオーバー表示 -->
+		<div class="container">
+			<table class="table table-hover">
+				<thead class="table-dark">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!--「table-light」-->
+			<table class="table table-hover">
+				<thead class="table-light">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- リスト3-70 table-smクラスを利用したコンパクトなテーブル -->
+		<div class="container">
+			<table class="table table-sm">
+				<thead class="table-dark">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!--「table-light」-->
+			<table class="table table-sm">
+				<thead class="table-light">
+					<tr>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<tr>
+						<th scope="row">見出しセル</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- リスト3-72 -->
+		<div class="container">
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">背景色用のセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+						<th scope="col">見出しセル</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!--背景色ナシ-->
+					<tr>
+						<th scope="row">なし（標準）</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<!--背景色:primary-->
+					<tr class="table-primary">
+						<th scope="row">table-primary</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<!--背景色:secondary-->
+					<tr class="table-secondary">
+						<th scope="row">table-secondary</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<!--背景色:success-->
+					<tr class="table-success">
+						<th scope="row">table-success</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<!--背景色:danger-->
+					<tr class="table-danger">
+						<th scope="row">table-danger</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<!--背景色:warning-->
+					<tr class="table-warning">
+						<th scope="row">table-warning</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<!--背景色:info-->
+					<tr class="table-info">
+						<th scope="row">table-info</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<!--背景色:light-->
+					<tr class="table-light">
+						<th scope="row">table-light</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+					<!--背景色:dark-->
+					<tr class="table-dark">
+						<th scope="row">table-dark</th>
+						<td>データセル</td>
+						<td>データセル</td>
+						<td>データセル</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- リスト3-73 -->
+		<div class="container">
+			
+		</div>
+
+		<!-- リスト3-74 -->
+		<div class="container">
+			
+		</div>
+
+	</main>
+	<!-- Main(End) -->
+
+	<!-- Footer(Start) -->
+	<footer>
+		<div class="container text-muted py-5">
+			<p class="float-end mb-1"><a href="#">Back to top</a></p>
+			<p class="mb-1">&copy; Bootstrap</p>
+			<p class="mb-0">
+				<a href="https://getbootstrap.jp" target="_blank">Bootstap公式サイト</a>や
+				<a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+				<a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+			</p>
+		</div>
+	</footer>
+	<!-- Footer(End) -->
+
+	<!-- JavaScript -->
+	<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+	<script src="./libs/bootstrap/popper.min.js"></script>
+	<script src="./libs/bootstrap/bootstrap.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
