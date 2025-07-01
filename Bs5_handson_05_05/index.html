@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>PiyoTemplate</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+	
+	<!-- Header(Start) -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo.png">PiyoTemplate
+				</a>
+			</div>
+		</nav>
+	</header>
+	<!-- Header(End) -->
+
+	<!-- Main(Start) -->
+	<main>
+
+		<div class="container pt-3">
+			<h1>ページネーション</h1>
+		</div>
+
+		<!-- リスト5-58 ページネーションの基本的な使い方 -->
+		<div class="container">
+			<nav aria-label="ページネーションの例">
+				<ul class="pagination">
+					<li class="page-item"><a class="page-link" href="#">前</a></li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">次</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- リスト5-59 ページネーションにアイコンを使用する -->
+		<div class="container">
+			<nav aria-label="ページネーションの例">
+				<ul class="pagination">
+					<li class="page-item">
+						<a class="page-link" href="#" aria-label="前へ">
+							<span aria-hidden="true">&laquo;</span>
+							<span class="visually-hidden">前へ</span>
+						</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#" aria-label="次へ">
+							<span aria-hidden="true">&raquo;</span>
+							<span class="visually-hidden">次へ</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- リスト5-60 リンクの無効状態やアクティブ状態を指定する -->
+		<div class="container">
+			<nav aria-label="ページネーションの例">
+				<ul class="pagination">
+					<li class="page-item disabled">
+						<a class="page-link" href="#" tabindex="-1">前</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item active">
+						<a class="page-link" href="#">2 <span class="visually-hidden">（現ページ）</span></a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">次</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- リスト5-61 -->
+		<div class="container">
+			
+		</div>
+
+		<!-- リスト5-62 span要素を使用してリンクの無効状態やアクティブ状態を指定する -->
+		<div class="container">
+			<nav aria-label="ページネーションの例">
+				<ul class="pagination">
+					<li class="page-item disabled">
+						<span class="page-link">前</span>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item active">
+						<span class="page-link">
+							2
+							<span class="visually-hidden">(現ページ)</span>
+						</span>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">次</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- リスト5-63 -->
+		<div class="container">
+			<h3>pagination-lg</h3>
+			<nav aria-label="ページネーションの例">
+				<ul class="pagination pagination-lg">
+					<li class="page-item">
+						<a class="page-link" href="#" tabindex="-1">前</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">2 <span class="visually-hidden">（現ページ）</span></a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">次</a>
+					</li>
+				</ul>
+			</nav>
+			<h3>pagination-sm</h3>
+			<nav aria-label="ページネーションの例">
+				<ul class="pagination pagination-sm">
+					<li class="page-ite">
+						<a class="page-link" href="#" tabindex="-1">前</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">2 <span class="visually-hidden">（現ページ）</span></a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">次</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- リスト5-64 ページネーションの配置 -->
+		<div class="container">
+			<section>
+				<h3>中央揃え(justify-content-center)</h3>
+				<nav aria-label="ページネーションの例">
+					<ul class="pagination justify-content-center">
+						<li class="page-ite">
+							<a class="page-link" href="#" tabindex="-1">前</a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">2 <span class="visually-hidden">（現ページ）</span></a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">次</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<h3>右揃え(justify-content-end)</h3>
+				<nav aria-label="Page navigation example">
+					<ul class="pagination justify-content-end">
+						<li class="page-ite">
+							<a class="page-link" href="#" tabindex="-1">前</a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">2 <span class="visually-hidden">（現ページ）</span></a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">次</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</div>
+
+	</main>
+	<!-- Main(End) -->
+
+	<!-- Footer(Start) -->
+	<footer>
+		<div class="container text-muted py-5">
+			<p class="float-end mb-1"><a href="#">Back to top</a></p>
+			<p class="mb-1">&copy; Bootstrap</p>
+			<p class="mb-0">
+				<a href="https://getbootstrap.jp" target="_blank">Bootstap公式サイト</a>や
+				<a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+				<a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+			</p>
+		</div>
+	</footer>
+	<!-- Footer(End) -->
+
+	<!-- JavaScript -->
+	<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+	<script src="./libs/bootstrap/popper.min.js"></script>
+	<script src="./libs/bootstrap/bootstrap.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
