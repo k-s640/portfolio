@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>PiyoTemplate</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+	
+	<!-- Header(Start) -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo.png">PiyoTemplate
+				</a>
+			</div>
+		</nav>
+	</header>
+	<!-- Header(End) -->
+
+	<!-- Main(Start) -->
+	<main>
+
+		<div class="container pt-3">
+			<h1>パンくずリスト</h1>
+		</div>
+
+		<!-- リスト5-43 パンくずリストの基本的な使用例 -->
+		<div class="container">
+			<nav aria-label="breadcrumb" role="navigation">
+				<ol class="breadcrumb p-3 bg-light rounded-2">
+					<li class="breadcrumb-item"><a href="#">ホーム</a></li>
+					<li class="breadcrumb-item"><a href="#">ライブラリ</a></li>
+					<li class="breadcrumb-item active" aria-current="page">データ</li>
+				</ol>
+			</nav>
+		</div>
+
+		<!-- リスト5-44 ディバイダ―を変更する -->
+		<div class="container">
+			<nav style="--bs-breadcrumb-divider: '●';" aria-label="breadcrumb" role="navigation">
+				<ol class="breadcrumb p-3 bg-light rounded-2">
+					<li class="breadcrumb-item"><a href="#">ホーム</a></li>
+					<li class="breadcrumb-item"><a href="#">ライブラリ</a></li>
+					<li class="breadcrumb-item active" aria-current="page">データ</li>
+				</ol>
+			</nav>
+		</div>
+
+		<div class="container pt-3">
+			<h1>リストグループ</h1>
+		</div>
+
+		<!-- リスト5-46 リストグループの基本的な使用例 -->
+		<div class="container">
+			<ul class="list-group">
+				<li class="list-group-item">リスト項目1</li>
+				<li class="list-group-item">リスト項目2</li>
+				<li class="list-group-item">リスト項目3</li>
+			</ul>
+		</div>
+
+		<!-- リスト5-47 リスト項目をアクティブ状態にする -->
+		<div class="container">
+			<ul class="list-group">
+				<li class="list-group-item active">リスト項目1</li>
+				<li class="list-group-item">リスト項目2</li>
+				<li class="list-group-item">リスト項目3</li>
+			</ul>
+		</div>
+
+		<!-- リスト5-48 リスト項目を無効状態にする -->
+		<div class="container">
+			<ul class="list-group">
+				<li class="list-group-item disabled">リスト項目1</li>
+				<li class="list-group-item">リスト項目2</li>
+				<li class="list-group-item">リスト項目3</li>
+			</ul>
+		</div>
+
+		<!-- リスト5-49 リンク付きリストグループ -->
+		<div class="container">
+			<div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action">リスト項目1</a>
+				<a href="#" class="list-group-item list-group-item-action">リスト項目2</a>
+				<a href="#" class="list-group-item list-group-item-action disabled">リスト項目3</a>
+			</div>
+		</div>
+
+		<!-- リスト5-50 ボタンのリストグループ -->
+		<div class="container">
+			<div class="list-group">
+				<button type="button" class="list-group-item list-group-item-action">リスト項目1</button>
+				<button type="button" class="list-group-item list-group-item-action">リスト項目2</button>
+				<button type="button" class="list-group-item list-group-item-action disabled">リスト項目3</button>
+			</div>
+		</div>
+
+		<!-- リスト5-51 リストグループの背景色を変更する -->
+		<div class="container">
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-primary">これは「primary」のリスト項目です</li>
+				<li class="list-group-item list-group-item-secondary">これは「secondary」のリスト項目です</li>
+				<li class="list-group-item list-group-item-success">これは「success」のリスト項目です</li>
+				<li class="list-group-item list-group-item-danger">これは「danger」のリスト項目です</li>
+				<li class="list-group-item list-group-item-warning">これは「warning」のリスト項目です</li>
+				<li class="list-group-item list-group-item-info">これは「info」のリスト項目です</li>
+				<li class="list-group-item list-group-item-light">これは「light」のリスト項目です</li>
+				<li class="list-group-item list-group-item-dark">これは「dark」のリスト項目です</li>
+				<li class="list-group-item">これは「デフォルト」のリスト項目です</li>
+			</ul>
+		</div>
+
+		<!-- リスト5-53 -->
+		<div class="container">
+			<ul class="list-group">
+				<a href="#" class="list-group-item list-group-item-action list-group-item-primary active">これはアクティブ状態の「primary」のリスト項目です</a>
+				<a href="#" class="list-group-item list-group-item-action list-group-item-secondary active">これはアクティブ状態の「secondary」のリスト項目です</a>
+				<a href="#" class="list-group-item list-group-item-action list-group-item-success active">これはアクティブ状態の「success」のリスト項目です</a>
+				<a href="#" class="list-group-item list-group-item-action list-group-item-danger active">これはアクティブ状態の「danger」のリスト項目です</a>
+				<a href="#" class="list-group-item list-group-item-action list-group-item-warning active">これはアクティブ状態の「warning」のリスト項目です</a>
+				<a href="#" class="list-group-item list-group-item-action list-group-item-info active">これはアクティブ状態の「info」のリスト項目です</a>
+				<a href="#" class="list-group-item list-group-item-action list-group-item-light active">これはアクティブ状態の「light」のリスト項目です</a>
+				<a href="#" class="list-group-item list-group-item-action list-group-item-dark active">これはアクティブ状態の「dark」のリスト項目です</a>
+				<a href="#" class="list-group-item list-group-item-action active">これはアクティブ状態の「デフォルト」のリスト項目です</a>
+			</ul>
+		</div>
+
+		<!-- リスト5-54 バッジ付きリストグループ -->
+		<div class="container">
+			<ul class="list-group">
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					リスト項目1
+					<span class="badge bg-primary rounded-pill">14</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					リスト項目2
+					<span class="badge bg-secondary rounded-pill">14</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					リスト項目3
+					<span class="badge bg-success rounded-pill">14</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					リスト項目4
+					<span class="badge bg-danger rounded-pill">14</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					リスト項目5
+					<span class="badge bg-warning rounded-pill">14</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					リスト項目6
+					<span class="badge bg-info rounded-pill">14</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					リスト項目7
+					<span class="badge bg-light rounded-pill">14</span>
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					リスト項目8
+					<span class="badge bg-dark rounded-pill">14</span>
+				</li>
+			</ul>
+		</div>
+
+		<!-- リスト5-55 -->
+		<div class="container">
+			<div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action flex-colum align-items-start active">
+					<div class="d-flex w-100 justify-content-between">
+						<h5 class="mb-1">リスト項目1のヘッダ</h5>
+						<small>三日前</small>
+					</div>
+					<p class="mb-1">リスト項目1のコンテンツの見本です。</p>
+					<small>リスト項目1のサブコンテンツです。</small>
+				</a>
+				<a href="#" class="list-group-item list-group-item-action flex-colum align-items-start ">
+					<div class="d-flex w-100 justify-content-between">
+						<h5 class="mb-1">リスト項目2のヘッダ</h5>
+						<small>三日前</small>
+					</div>
+					<p class="mb-1">リスト項目2のコンテンツの見本です。</p>
+					<small>リスト項目2のサブコンテンツです。</small>
+				</a>
+			</div>
+		</div>
+
+		<!-- リスト5-56 -->
+		<div class="container">
+			<div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">リスト項目1</li>
+					<li class="list-group-item">リスト項目2</li>
+					<li class="list-group-item">リスト項目3</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- リスト5-57 -->
+		<div class="container">
+			<div>
+				<ul class="list-group list-group-numbered">
+					<li class="list-group-item">リスト項目1</li>
+					<li class="list-group-item">リスト項目2</li>
+					<li class="list-group-item">リスト項目3</li>
+				</ul>
+			</div>
+		</div>
+
+	</main>
+	<!-- Main(End) -->
+
+	<!-- Footer(Start) -->
+	<footer>
+		<div class="container text-muted py-5">
+			<p class="float-end mb-1"><a href="#">Back to top</a></p>
+			<p class="mb-1">&copy; Bootstrap</p>
+			<p class="mb-0">
+				<a href="https://getbootstrap.jp" target="_blank">Bootstap公式サイト</a>や
+				<a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+				<a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+			</p>
+		</div>
+	</footer>
+	<!-- Footer(End) -->
+
+	<!-- JavaScript -->
+	<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+	<script src="./libs/bootstrap/popper.min.js"></script>
+	<script src="./libs/bootstrap/bootstrap.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
