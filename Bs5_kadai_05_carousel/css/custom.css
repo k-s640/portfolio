@@ -1,0 +1,161 @@
+/* CSS */
+
+html, body{
+	width: 100%; height: 300px;
+}
+
+.navbar-brand img{
+	width: 28px; height: auto;
+	margin: 0px 5px; padding: 0px;
+	border-radius: 14px;
+}
+
+#car-html{
+	width: 100%; height: 300px;
+	background-image: url("../images/bkg_html.png");
+	background-position: center;
+	background-size: 30%;
+	background-color: orange;
+	background-repeat: no-repeat;
+}
+
+#car-css{
+	width: 100%; height: 300px;
+	background-image: url("../images/bkg_css.png");
+	background-position: center;
+	background-size: 30%;
+	background-color: cornflowerblue;
+	background-repeat: no-repeat;
+}
+
+#car-javascript{
+	width: 100%; height: 300px;
+	background-image: url("../images/bkg_javascript.png");
+	background-position: center;
+	background-size: 30%;
+	background-color: gold;
+	background-repeat: no-repeat;
+}
+
+#head-jquery{
+	width: 140px; height: 140px;
+	margin: 0 auto 0 auto;
+	border-radius: 70px;
+	background-image: url("../images/logo_jquery.png");
+	background-position: center;
+	background-size: cover;
+	background-color: silver;
+}
+
+#head-bootstrap{
+	width: 140px; height: 140px;
+	margin: 0 auto 0 auto;
+	border-radius: 70px;
+	background-image: url("../images/logo_bootstrap.png");
+	background-position: center;
+	background-size: cover;
+	background-color: silver;
+}
+
+#head-vue{
+	width: 140px; height: 140px;
+	margin: 0 auto 0 auto;
+	border-radius: 70px;
+	background-image: url("../images/logo_vue.png");
+	background-position: center;
+	background-size: cover;
+	background-color: silver;
+}
+
+#feature-html{
+	width: 100%; height: 100%;
+	background-image: url("../images/bkg_html.png");
+	background-position: center;
+	background-size: 50%;
+	background-color: orange;
+	background-repeat: no-repeat;
+}
+
+#feature-css{
+	width: 100%; height: 100%;
+	background-image: url("../images/bkg_css.png");
+	background-position: center;
+	background-size: 50%;
+	background-color: cornflowerblue;
+	background-repeat: no-repeat;
+}
+
+#feature-javascript{
+	width: 100%; height: 100%;
+	background-image: url("../images/bkg_javascript.png");
+	background-position: center;
+	background-size: 50%;
+	background-color: gold;
+	background-repeat: no-repeat;
+}
+.feature-icon {
+	width: 140px;
+	height: 140px;
+	margin: 0 auto 15px auto;
+	border-radius: 50%;
+	overflow: hidden; /* ← これで画像がはみ出さない */
+	background-color: #f8f9fa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	transition: transform 0.3s ease;
+  }
+  
+  .feature-icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* ← 円の中にめいっぱい広げる */
+	border-radius: 50%;
+  }
+  
+  .feature-icon:hover {
+	transform: scale(1.05);
+  }
+  /* --- カルーセル高さ調整（安全版） --- */
+.carousel-inner {
+	height: 300px; /* ← カンプに合わせた高さ */
+  }
+  
+  .carousel-item {
+	height: 100%;
+  }
+  
+  .carousel-item > .container {
+	height: 100%;
+	display: flex;
+	align-items: center; /* ← ここだけflexにするのが安全！ */
+	justify-content: center;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+  }
+  
+  .carousel-item img {
+	max-height: 180px;
+	height: auto;
+  }
+  /* --- Step区切り線用 --- */
+.step-title {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px; /* 線と本文の間に余白 */
+	padding-top: 20px; /* 線と文字の距離を確保 */
+  }
+  
+  .step-title::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 10000px;        /* 線の長さ */
+	height: 2px;        /* 線の太さ */
+	background-color: #ccc; /* 線の色（カンプの灰色に近く） */
+	border-radius: 2px;
+  }
+  
